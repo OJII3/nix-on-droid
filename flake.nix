@@ -7,7 +7,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, nix-on-droid, home-manager } : {
+  outputs = { self, nixpkgs, nix-on-droid } : {
 
     nixOnDroidConfigurations.default = nix-on-droid.lib.nixOnDroidConfiguration {
       pkgs = import nixpkgs { 
