@@ -27,6 +27,8 @@
     #zip
     #unzip
     which
+
+    hackgen-nf-font
   ];
 
   # Backup etc files instead of failing to activate generation if a file already exists in /etc
@@ -34,17 +36,6 @@
 
   # Read the changelog before changing this value
   system.stateVersion = "24.05";
-
-  home-manager.config = { pkgs, ... }: {
-    home.stateVersion = "24.05";
-    imports = [
-      ./home-manager/git.nix
-      ./home-manager/neovim.nix
-      ./home-manager/dev.nix
-      ./home-manager/direnv.nix
-      ./home-manager/zsh.nix
-    ];
-  };
 
   android-integration.termux-open.enable = true;
   android-integration.termux-setup-storage.enable = true;

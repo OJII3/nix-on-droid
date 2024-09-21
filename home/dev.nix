@@ -4,7 +4,6 @@
     ripgrep
     fzf
     tig
-    delta
     yazi
     tmux
     imagemagick
@@ -12,12 +11,12 @@
     unzip
     zip
     unar
+    mdbook
 
     # cli apps
     fastfetch
     nyancat
     # termpdfpy  # <- broken
-    libwebp
     ollama
     online-judge-tools
 

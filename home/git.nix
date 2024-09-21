@@ -33,13 +33,13 @@
       push = { autoSetupRemote = true; };
       init = { defaultBranch = "main"; };
       user = { signingKey = "37547FAD690A6133"; };
-      commit = { gpgSign = true; };
+      # commit = { gpgSign = true; };
     };
   };
 
   programs.gh = {
     enable = true;
-    extensions = with pkgs; [ gh-markdown-preview gh-dash ];
+    extensions = with pkgs; [ gh-dash ];
     settings = {
       editor = "nvim";
     };

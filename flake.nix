@@ -14,7 +14,7 @@
         system = "aarch64-linux";
         nixpkgs.allowUnfree = true;
       };
-      modules = [ ./nix-on-droid.nix ];
+      modules = [ ./nix-on-droid.nix ./home ];
     };
 
   };
