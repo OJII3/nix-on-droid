@@ -3,6 +3,7 @@
     # utilities
     ripgrep
     fzf
+    gawk
     tig
     yazi
     tmux
@@ -17,7 +18,6 @@
     fastfetch
     nyancat
     # termpdfpy  # <- broken
-    ollama
     online-judge-tools
 
     # languages
@@ -25,12 +25,9 @@
     cmake
     rye
     typst
-    rustup
-    python311
     mise
     bun
     deno
   ];
 
 }
-    

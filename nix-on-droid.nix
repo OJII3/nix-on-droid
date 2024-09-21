@@ -43,7 +43,7 @@
   android-integration.termux-open-url.enable = true;
   android-integration.termux-reload-settings.enable = true;
 
-  terminal.font = "${pkgs.hackgen-nf-font}/share/fonts/HackGenNF.ttf";
+  terminal.font = "${pkgs.hackgen-nf-font}/share/fonts/hackgen-nf/HackGenConsoleNF-Regular.ttf";
 
   user.shell = "${pkgs.zsh}/bin/zsh";
 

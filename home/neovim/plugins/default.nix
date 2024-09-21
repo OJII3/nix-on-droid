@@ -19,6 +19,7 @@
         };
       };
 
+      copilot-vim.enable = true;
       nvim-autopairs.enable = true;
 
       nvim-colorizer = {

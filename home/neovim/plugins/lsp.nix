@@ -10,8 +10,8 @@
           silent = true;
           diagnostic = {
             # Navigate in diagnostics
-            "<leader>k" = "goto_prev";
-            "<leader>j" = "goto_next";
+            "[g" = "goto_prev";
+            "]g" = "goto_next";
           };
 
           lspBuf = {
@@ -21,12 +21,14 @@
             gi = "implementation";
             K = "hover";
             "<F2>" = "rename";
+            "<leader>rn" = "rename";
           };
         };
 
         servers = {
           clangd.enable = true;
           texlab.enable = true;
+          tinymist.enable = true;
         };
       };
     };

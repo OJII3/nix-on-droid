@@ -40,4 +40,9 @@
   };
 
   programs.starship.enable = true;
+
+  home.file."Downloads" = {
+    source = "/sdcard/Download/";
+    recursive = true;
+  };
 }
