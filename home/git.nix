@@ -39,7 +39,7 @@
 
   programs.gh = {
     enable = true;
-    extensions = with pkgs; [ gh-dash ];
+    ## extensions = with pkgs; [ gh-dash ];
     settings = {
       editor = "nvim";
     };

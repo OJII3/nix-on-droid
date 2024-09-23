@@ -23,9 +23,7 @@
     # languages
     gcc
     cmake
-    rye
     typst
-    mise
     bun
     deno
   ];

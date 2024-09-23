@@ -1,5 +1,6 @@
 {
   imports = [
+    ./comment.nix
     ./lsp.nix
     ./lualine.nix
     ./neo-tree.nix

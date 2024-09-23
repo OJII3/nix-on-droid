@@ -27,8 +27,8 @@
 
         servers = {
           clangd.enable = true;
-          texlab.enable = true;
           tinymist.enable = true;
+          nil_ls.enable = true;
         };
       };
     };
